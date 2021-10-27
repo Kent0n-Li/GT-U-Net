@@ -139,4 +139,4 @@ def countfly(imageSR,imageGT):
 
 
 if __name__=='__main__':
-	countfly(SR,GT)
+    countfly(SR,GT)
