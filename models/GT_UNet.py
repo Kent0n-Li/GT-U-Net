@@ -404,7 +404,7 @@ def _make_bot_layer(ch_in, ch_out):
 
 class GT_U_Net(nn.Module):
     def __init__(self,img_ch=3,output_ch=1):
-        super(U_Net,self).__init__()
+        super(GT_U_Net,self).__init__()
         
         self.Maxpool = nn.MaxPool2d(kernel_size=2,stride=2)
 
